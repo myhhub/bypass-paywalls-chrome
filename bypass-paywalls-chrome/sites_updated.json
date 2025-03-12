@@ -1,0 +1,90 @@
+{
+  "Abcmais.com (not mobile)": {
+    "domain": "abcmais.com",
+    "allow_cookies": 1,
+    "ld_json_url": "section#section-iframe-assinante|div.degressing-opacity",
+    "upd_version": "4.0.2.8"
+  },
+  "Actu.fr": {
+    "domain": "actu.fr",
+    "allow_cookies": 1,
+    "block_regex": "\\.poool\\.fr",
+    "upd_version": "4.0.3.5"
+  },
+  "Barron's (removed)": {
+    "domain": "barrons.com",
+    "allow_cookies": 1,
+    "cs_block": 1,
+    "nofix": 1,
+    "upd_version": "4.0.3.6"
+  },
+  "Connaissance des Arts": {
+    "domain": "connaissancedesarts.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.connaissancedesarts\\.com\\/wp-content\\/.+\\/vendor\\/iptools-jquery-inview\\.min\\.js",
+    "upd_version": "4.0.2.5"
+  },
+  "Grupo Clarín": {
+    "domain": "###_ar_grupo_clarin",
+    "group": [
+      "clarin.com",
+      "lavoz.com.ar",
+      "losandes.com.ar",
+      "ole.com.ar"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "zonda\\.clarin\\.com",
+    "exception": [{
+        "domain": "losandes.com.ar",
+        "allow_cookies": 1,
+        "block_regex": "cdn\\.lavoz\\.com\\.ar\\/sites\\/.+\\/paywall\\/losandes\\/pw\\.js"
+      }
+    ],
+    "upd_version": "4.0.3.6"
+  },
+  "Heise online": {
+    "domain": "heise.de",
+    "allow_cookies": 1,
+    "ld_archive_is": "a-gift:not([has-access]|article)",
+    "cs_block": 1,
+    "upd_version": "4.0.3.2"
+  },
+  "PhiloMag.com": {
+    "domain": "philomag.com",
+    "remove_cookies_select_drop": ["number_view_paywall"],
+    "block_regex": "\\.qiota\\.com",
+    "useragent": "googlebot",
+    "upd_version": "4.0.3.5"
+  },
+  "Philonomist": {
+    "domain": "philonomist.com",
+    "allow_cookies": 1,
+    "ld_json": "div.content-bandeau|div.main-body>div",
+    "upd_version": "4.0.3.7"
+  },
+  "Sciences Humaines": {
+    "domain": "scienceshumaines.com",
+    "remove_cookies_select_drop": ["number_view_paywall"],
+    "block_regex": "\\.qiota\\.com",
+    "useragent": "googlebot",
+    "upd_version": "4.0.3.4"
+  },
+  "Scientific American": {
+    "domain": "scientificamerican.com",
+    "remove_cookies_select_drop": ["article_meter"],
+    "block_regex": "\\.scientificamerican\\.com\\/api\\/tinypass\\.min\\.js",
+    "upd_version": "4.0.2.1"
+  },
+  "The Independent USA": {
+    "domain": "the-independent.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.tinypass\\.com",
+    "upd_version": "4.0.3.2"
+  },
+  "The Intercept": {
+    "domain": "theintercept.com",
+    "allow_cookies": 1,
+    "block_js_inline": "\\/theintercept\\.com",
+    "upd_version": "4.0.3.1"
+  }
+}
